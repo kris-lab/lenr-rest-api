@@ -1,0 +1,19 @@
+{
+  "name": "LENR",
+  "version": "0.0.1",
+  "componentsDirectory" : "public/assets",
+  "dependencies": {
+    "backbone": "~1.2.0",
+    "underscore": "~1.8.0",
+    "jquery": "~2.0.0",
+    "jquery.cookie": "~1.4",
+    "sockjs": "~0.3",
+    "backbone.localStorage": "~1.1.0",
+    "bootstrap": "~3.3",
+    "requirejs": ">=2.1.10",
+    "jquery-timeago": "1.4.0"
+  },
+  "resolutions": {
+    "jquery": "~2.0.0"
+  }
+}
