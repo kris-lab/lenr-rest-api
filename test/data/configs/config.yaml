@@ -1,0 +1,9 @@
+port: 8001
+logPath: 'lenr-rest-api.log'
+mongodb:
+  host: 'localhost'
+  port: 27017
+  db: 'lenr_test'
+lenr:
+  pulsar:
+    repo: './test/data/pulsar-conf-dummy/'
