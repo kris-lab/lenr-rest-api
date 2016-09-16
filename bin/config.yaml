@@ -1,0 +1,9 @@
+port: 8001
+mongodb:
+  host: 'localhost'
+  port: 27017
+  db: 'lenr'
+logPath: 'lenr.log'
+lenr:
+  pulsar:
+    repo: 'pulsar-conf-repo'

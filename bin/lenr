@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var Config = require('../lib/config');
+var minimist = require('minimist');
+var Server = require('../lib/server.js');
+
+var argv = minimist(process.argv.slice(2));
+var configPath = argv.c || __dirname + '/config.yaml';
+var config = new Config(configPath);
+server = new Server(config);

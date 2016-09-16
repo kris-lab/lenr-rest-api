@@ -11,7 +11,8 @@
     "backbone.localStorage": "~1.1.0",
     "bootstrap": "~3.3",
     "requirejs": ">=2.1.10",
-    "jquery-timeago": "1.4.0"
+    "jquery-timeago": "1.4.0",
+    "highcharts": "~4.2.6"
   },
   "resolutions": {
     "jquery": "~2.0.0"
