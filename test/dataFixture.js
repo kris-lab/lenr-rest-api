@@ -28,20 +28,4 @@ new LenrDb(testConfig.mongodb, function(err, db) {
     console.log(jobList.length + ' items of job list successfully loaded to ' + testConfig.mongodb.db + ' database');
     process.exit(0);
   });
-
-/*
-  //export
-  db.getJobList(function(err, jobList) {
-    var jobDataList = _.map(jobList, function(job) {
-      return job.getData()
-    });
-    fs.writeFile('./test/data/jobListFixture.json', JSON.stringify(jobDataList), function(err) {
-      if (err) {
-        throw err;
-      }
-      console.log(jobList.length + ' items of job list successfully saved from ' + testConfig.mongodb.db + ' database');
-      process.exit(0);
-    });
-  })
-*/
 });
