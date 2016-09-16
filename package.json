@@ -1,8 +1,7 @@
 {
   "name": "lenr",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LENR REST API",
   "author": "Chris Stasiak <me@kris-lab.com>",
   "license": "MIT",
   "scripts": {
@@ -16,6 +15,16 @@
   "bugs": {
     "url": "https://github.com/kris-lab/lenr/issues"
   },
+  "main": "lib/server.js",
+  "bin": {
+    "pulsar-rest-api": "./bin/lenr"
+  },
+  "keywords": [
+    "lenr",
+    "cold-fusion",
+    "red-pitaya",
+    "caffe"
+  ],
   "dependencies": {
     "async": "~0.9",
     "underscore": "~1.7",
