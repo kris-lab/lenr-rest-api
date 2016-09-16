@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kris-lab/lenr.png?branch=master)](https://travis-ci.org/kris-lab/lenr)
+[![Build Status](https://travis-ci.org/lenr-lab/lenr-rest-api.png?branch=master)](https://travis-ci.org/lenr-lab/lenr-rest-api)
 
 LENR
 ====
