@@ -15,14 +15,14 @@ Pulsar
 Caffe
 -----
 ```
-$ pulsar -c bin/pulsar-conf-runners jetson-tx1 production -T
+$ pulsar -c bin/pulsar-conf-runners jetson production -T
 cap caffe:run_netowrk # Run neural network once
 ```
 
 SCPI
 ----
 ```
-$ pulsar -c bin/pulsar-conf-runners red-pitaya production -T
+$ pulsar -c bin/pulsar-conf-runners redpitaya production -T
 cap scpi:read_sensors # Read sensors
 ```
 
